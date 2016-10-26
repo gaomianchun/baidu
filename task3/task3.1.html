@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		-webkit-box-sizing: border-box;
+    	-moz-box-sizing: border-box;
+        box-sizing: border-box;
+	}
+	#container {
+		overflow: auto;
+		margin: 20px;
+		background-color: #eee;
+		border: 1px solid #999;
+		padding: 20px 160px 20px 240px;
+	}
+	img{
+		width: 80px;
+		height: 80px;
+	}
+	#center{
+		float: left;
+		width: 100%;
+		padding: 20px;
+		background-color: #fff;
+		border: 1px solid #999;
+	}
+	#left {
+		float: left;
+		width: 200px;
+		padding: 20px;
+		margin-left: -100%;
+		background-color: #fff;
+		border: 1px solid #999;
+		position: relative;
+		left: -220px;
+	}
+	#left p{
+		display: inline;
+	}
+	#right{
+		float: left;
+		width: 120px;
+		margin-left: -120px;
+		padding: 0 20px 20px 20px;
+		background-color: #fff;
+		border: 1px solid #999;
+		position: relative;
+		right: -140px;
+	}
+	#right img{
+		margin-top: 20px;
+	}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div id="center">
+        <p>文章作者 不知道哈哈哈哈 </p>
+        <p>
+            我坚信很多人在生活中时刻保持着热情，阳光四射，无时无刻不快乐，是为了努力骗过自己，想让自己相信自己就是这样。<br/>
+            否则，怕稍微一松懈，心里抑郁的情绪突然涌上来，再也控制不住。<a href="#" target="_blank">这里有一个链接链接到我的微博，你猜我会说吗</a>别人发现你不开心倒没什么，我们早就不怕人看笑话了。
+            可是如果有一天自己发现自己不开心，接下来的日子可怎么过啊。
+        </p>
+        <img src="img/0001.jpg">
+        <p>
+            生活真的不能深琢磨啊朋友们，一定要得过且过啊，一定要努力逗自己开心啊。
+            人生真他妈越想越苦，希望大家都活的表面而肤浅。当个快乐的傻子。
+        </p>
+		</div>
+		<div id="left">
+			<img src="img/0001.jpg" alt="图片">
+			<p>心灵鸡汤</p>
+		</div>
+		
+		<div id="right">
+			<img src="img/0001.jpg" alt="图片">
+			<img src="img/0001.jpg" alt="图片">
+			<img src="img/0001.jpg" alt="图片">
+			<img src="img/0001.jpg" alt="图片">
+		</div>
+	</div>
+</body>
+</html>

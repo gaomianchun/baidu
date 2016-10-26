@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>task4</title>
+	<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+	}
+	.main{
+		height: 200px;
+		width: 400px;
+		background-color: #ccc;
+		position: absolute;
+		margin-left: -200px;
+		left: 50%;
+		margin-top: -100px;
+		top: 50%;
+	}
+	/*
+	    position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		兼容性不好。IE9+以及其他现代浏览器才支持。IE9之前版本不支持,在IE8模式下，不居中
+	*/
+	/*
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		margin: auto;
+		兼容性可以,IE7及之前版本不支持
+	*/
+	.left{
+		width: 50px;
+		height: 50px;
+		border-radius: 0 0 50px 0;
+		background-color: #FC0;
+		position: absolute;
+		left: 0;
+		top: 0;
+	}
+	.right{
+		width: 50px;
+		height: 50px;
+		border-radius: 50px 0 0 0;
+		background-color: #FC0;
+		position: absolute;
+		right: 0;
+		bottom: 0;
+	}
+	</style>
+</head>
+<body>
+		<div class="main">
+		<div class="left"></div>
+		<div class="right"></div>
+		</div>
+</body>
+</html>

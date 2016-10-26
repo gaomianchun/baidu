@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1</title>
+    <style type="text/css">
+    *{
+        margin: 0px;
+        padding: 0px; 
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;  
+    }
+    
+    body{
+        font-family:'microsoft yahei';
+        background:#dedede;
+        position: relative;
+        overflow: auto;
+    }
+    aside {
+        width: 365px;
+        position: absolute;
+        right: 20px;
+        padding: 40px 20px;
+        background-color: #fff;
+        line-height: 2em; 
+        margin-top: 20px; 
+        box-shadow: 1px 1px 1px #333;        
+    }
+    .main {
+        position: absolute;
+        margin-right: 385px;
+        width: 100%；
+    }
+    header {
+        width: 100%;
+        height: 60px;
+        background-color: #333;
+        overflow: auto;    
+        display: inline-block;
+    }
+    header img {
+        float: left;
+        margin-left: 30px;
+        height: 60px;
+    }
+    header ul {
+        float: right;
+        margin-right: 20px;
+        margin-top : 20px;
+    }
+    .navlink li{
+        list-style: none;
+        float: left;
+        margin-left: 30px;
+    }
+    .navlink li a {
+        text-decoration: none;
+        color: #fff;
+    }
+        /*
+    header {
+        height: 60px;
+        width: 100%;
+        background-color: #333;
+        position: relative;
+        top: 0;
+        left: 0;
+    }
+    header img{
+        position: absolute;
+        height: 60px;
+        margin-left: 20px;
+    }
+    .navlink {
+        position: absolute;
+        right: 20px;
+        top: 20px;             
+    }
+    .navlink li {
+        display: inline;
+        text-decoration: none;
+        margin-left: 20px;        
+    }
+    .navlink li a {
+        text-decoration: none;
+        color: #fff;
+    }
+    */
+   article {
+        margin: 20px;
+        padding: 40px 20px;
+        background-color: #fff;
+        line-height: 2em;
+        box-shadow: 1px 1px 1px #333;
+   }
+   article h2 {
+        line-height: 2em;
+   }
+   article h3 {
+        color: #777;
+        font-size: 20px;
+        line-height: 1.8em;
+   }
+   article span{
+        color: #999;
+        font-size: 10px;
+        line-height: 1.6em;
+   }
+    article p{
+        text-indent: 2em;
+        line-height: 1.6em;   
+    }
+    article ul{
+        list-style: none;
+    }
+    .pic li img {
+        width: 100px;
+        height: 80px;
+    }
+    .pic li {
+        border: 1px solid #ccc;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding-left:10px;
+        padding-right: 10px;
+        padding-top: 10px; 
+        text-align: center;
+    }
+    .pic p {
+        text-indent: -0.5em;
+        font-size: 12px;
+    }
+    article ol{
+        font-weight: bold;
+        margin-left: 40px;
+    }    
+    table {
+        width: 100%; 
+        border-collapse: collapse;      
+    }
+    th,td {
+        text-align: left;
+        border: 1px solid #ccc;
+        padding-left: 10px;
+    }
+    th {
+        background-color: #333;
+        font-weight: bold;
+        color: #fff;
+    }
+    tr:last-child {
+        background: #ccc; 
+        font-weight: bold
+    }
+    aside label {
+        width: 30%;
+        text-align: right;
+        vertical-align: top;
+    }
+    footer {
+        background-color: #333;
+        width: 100%;
+        text-align: center;
+        height: 100px;
+        line-height: 5em;
+        color: #fff;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="img/0004.jpg">
+        <ul class="navlink">
+            <li><a href="">导航链接一</a></li>
+            <li><a href="">导航链接二</a></li>
+            <li><a href="">导航链接三</a></li>
+            <li><a href="">导航链接四</a></li>
+        </ul>
+    </header>
+    <div class="main">
+    <article>
+        <h2>心灵鸡汤</h2>
+        <h3>喝喝更健康</h3>
+        <span>文章作者 不知道哈哈哈哈 </span>
+        <p>
+            我坚信很多人在生活中时刻保持着热情，阳光四射，无时无刻不快乐，是为了努力骗过自己，想让自己相信自己就是这样。<br/>
+            否则，怕稍微一松懈，心里抑郁的情绪突然涌上来，再也控制不住。<a href="http://www.baidu.com" target="_blank">这里有一个链接链接到我的微博，你猜我会说吗</a>别人发现你不开心倒没什么，我们早就不怕人看笑话了。
+            可是如果有一天自己发现自己不开心，接下来的日子可怎么过啊。
+        </p>
+        <img src="img/0001.jpg">
+        <p>
+            生活真的不能深琢磨啊朋友们，一定要得过且过啊，一定要努力逗自己开心啊。<a href="#">这是好好明显的链接啊啊啊</a>
+            人生真他妈越想越苦，希望大家都活的表面而肤浅。当个快乐的傻子。
+        </p>
+    </article>
+    <article>
+        <h2>又是一碗心灵鸡汤</h2>
+        <h3>喝不喝啊你</h3>
+        <span>文章作者 还是不知道</span>
+        <p>
+            你要记得那些大雨中为你撑伞的人，帮你挡住外来之物的人，陪你彻夜聊天的人，坐车来看望你的人，陪你哭过的人，在医院陪你的人，
+            黑暗中默默抱紧你的人，<br>逗你笑的人，总是以你为重的人，是这些人组成你生命中一点一滴的温暖，是这些温暖使你成为善良的人。晚安。
+            ”你好像真是个矛盾的人，读书想努力又没劲头，减肥想坚持又没恒心，想要认真的做一件事又忙碌不起来，总是口不对心，明明是好意说出来都会伤人，
+            又死爱面子不肯道歉，想挽回不敢表露，<b>想要爱又怕失去。</b>唉 没救了。
+        </p>
+        <img src="img/0001.jpg">
+        <ul>
+            <li>列表1</li>
+            <li>列表1</li>
+            <li>列表1</li>
+        </ul>
+    </article>
+    <article>
+            <h2>图片</h2>
+            <ul class="pic">
+                <li>
+                    <p>好看的图片</p>
+                    <img src="img/0001.jpg" alt="">
+                </li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+                <li><p>好看的图片</p><img src="img/0001.jpg" alt=""></li>
+            </ul>
+    </article>
+    <article>
+        <h2>没有心灵鸡汤喝了</h2>
+        <h3>蓝瘦香菇</h3>
+        <span>文章作者 还是不知道</span>
+        <ol>
+            <li>排名1</li>
+            <li>排名1</li>
+            <li>排名1</li>
+        </ol>
+        <div>下面是个表格</div>
+        <table>
+            <tr>
+                <th>表头</th>
+                <th>表头</th>
+                <th>表头</th>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="">操作</a></td>
+            </tr>
+            <tr>
+                <td>表内容单元格</td>
+                <td>表内容单元格</td>
+                <td><a href="">操作</a></td>
+            </tr>
+            <tr>
+                <td>总计</td>
+                <td colspan="2">1000</td>>
+            </tr>
+        </table>
+    </article>
+    </div>
+    <aside>
+        <h4>
+            侧栏的标题侧栏注册窗口标题
+        </h4>           
+        <form>
+            <label for="email">请输入邮箱地址</label>
+            <input type="text" id="email" name="eamil" value="这是一个文本输入框">
+            <br>
+            <p>邮箱地址请按要求输入</p>
+            <label for="pw1">请输入密码</label>
+            <input type="password" id="pw1" name="pwd1" value="这是一个文本输入框">
+            <label for="pw1">请重复输入密码</label>
+            <input type="password" id="pw1" name="pwd1" value="这是一个文本输入框">
+            <br>
+            <p>密码请为6-16位数字</p>
+            <br>
+            <label>性别：</label>
+            <input type="radio" value="男" name="sex" checked="checked">
+            <span>男</span>
+            <input type="radio" value="女" name="sex">
+            <span>女</span>
+            <select name="city">
+                <option value="北京">北京</option>
+                <option value="上海">上海</option>
+            </select>
+            <label>爱好：</label>
+            <input type="checkbox" name="sport" checked="checked">
+            <span>运动</span>
+            <input type="checkbox" name="sport">
+            <span>艺术</span>
+            <input type="checkbox" name="sport">
+            <span>科学</span>
+            <label>个人描述</label>
+            <textarea name="message" cols="10" rows="2">
+        这是一个多行输入框
+            </textarea>
+            <input type="submit" value="确认提交">
+        </form>
+    </aside>
+    <footer>
+        <p>版权所有@gao</p>
+       
+    </footer>
+</body>
+</html>
